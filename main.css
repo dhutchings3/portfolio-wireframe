@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: grey;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.first-nav {
+    background-color: lightgray;
+}
+
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+
+  .second-nav {
+      position: relative;
+  }
+
+
+  
