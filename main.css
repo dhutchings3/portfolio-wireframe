@@ -9,31 +9,66 @@ body {
     text-align: center;
 }
 
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
     right: 0;
+    top: 0;
 }
 
-.first-nav {
+.active {
     background-color: lightgray;
-}
+    color: black;
+  }
 
-section {
+
+section, header {
     min-height: 200px;
     padding: 6% 0;
     background-color: #bbb;
-  }
+}
   
-  section:nth-child(even) {
+section:nth-child(even) {
     background-color: #ddd;
-  }
+}
 
-  .second-nav {
+.second-nav {
       position: relative;
-  }
+}
 
+@media screen and (min-width: 768px){
+    .topnav a.icon {
+        display: none;
+    }
 
-  
+    .topnav {
+        overflow: visible;
+    }
+    
+    .topnav #mylinks {
+        display: inline-block;
+        text-decoration: none;
+        
+    }
+}
+    
+
+@media screen and (min-width: 1281px) {
+}
