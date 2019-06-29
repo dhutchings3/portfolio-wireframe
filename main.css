@@ -45,9 +45,14 @@ section:nth-child(even) {
     background-color: #ddd;
 }
 
-.second-nav {
+ul {
       position: relative;
+      list-style: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
 }
+
 
 @media screen and (min-width: 768px){
     .topnav a.icon {
