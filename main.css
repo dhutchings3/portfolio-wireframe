@@ -6,9 +6,13 @@ body {
     background: white;
     font-family: 'Noto Sans HK', sans-serif;
     color: black;
+<<<<<<< HEAD
     text-align: center;
     font-family: 'PT Sans', sans-serif;
     margin: 0 30px;
+=======
+    text-align: left;
+>>>>>>> master
 }
 
 /*** Nav ***/
