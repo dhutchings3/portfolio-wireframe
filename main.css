@@ -10,6 +10,7 @@ body {
     font-family: 'PT Sans', sans-serif;
     margin: 0, auto;
     padding: 0;
+    width: 100%;
 }
 
 /*** Nav ***/
@@ -69,9 +70,9 @@ header h1 {
 }
 
 header ul li img {
-    margin: 100px 5px;
-    width: 50px;
-    height: 50px;
+    margin: 80px 5px;
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -107,7 +108,7 @@ section p {
 
 .about {
     background-color:  #172A3A;
-    height: 600px;
+    height: 750px;
 }
 
 .about p {
@@ -174,6 +175,7 @@ footer {
 @media screen and (min-width: 768px){
     body {
         margin: 0;
+        width: 100%;
     }
 
     .topnav a.icon {
@@ -214,7 +216,9 @@ footer {
     }
 
     header ul li img {
-        margin: 100px 30px;
+        margin: 100px 5px;
+        width: 50px;
+        height: 50px;
     }
 
     h2 {
@@ -224,6 +228,10 @@ footer {
     section p {
         font-size: 20px;
         line-height: 30px;
+    }
+
+    .about {
+        height: 800px;
     }
 
     .work h3 {
@@ -253,6 +261,7 @@ footer {
     
 
 @media screen and (min-width: 1281px) {
+    
     .topnav a {
         padding: 14px 5px;
         margin: 0 30px;
@@ -276,6 +285,10 @@ footer {
 
     h2 {
         font-size: 28px;
+    }
+
+    .about {
+        height: 700px;
     }
 
     .contact ul li {
