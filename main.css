@@ -10,7 +10,6 @@ body {
     font-family: 'PT Sans', sans-serif;
     margin: 0, auto;
     padding: 0;
-    width: 100%;
 }
 
 /*** Nav ***/
@@ -75,6 +74,10 @@ header ul li img {
     height: 30px;
 }
 
+header p {
+    font-size: 22px;
+}
+
 
 /*** section styling ***/ 
 
@@ -89,10 +92,10 @@ h2 {
     font-size: 24px;
 }
 
-section p {
+p {
     display: inline-block;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 30px;
     color: #646F4B;
     width: 75%;
 }
@@ -216,7 +219,7 @@ footer {
     }
 
     header ul li img {
-        margin: 100px 5px;
+        margin: 100px 25px;
         width: 50px;
         height: 50px;
     }
@@ -273,10 +276,6 @@ footer {
 
     header p {
         font-size: 32px;
-    }
-
-    body {
-        margin: 0 100px;
     }
 
     p {
