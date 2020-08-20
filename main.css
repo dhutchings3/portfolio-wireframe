@@ -83,7 +83,7 @@ header p {
 
 section, header {
     min-height: 150px;
-    padding: 4% 0;
+    padding: 7% 0;
 
 }
 
@@ -234,7 +234,7 @@ footer {
     }
 
     .about {
-        height: 700px;
+        height: 750px;
     }
 
     .work h3 {
